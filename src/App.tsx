@@ -1,11 +1,16 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Navbar } from "./Layout/NavbarAndFooter/Navbar";
+import { Footer } from "./Layout/NavbarAndFooter/Footer";
+import { HomePage } from "./Layout/HomePage/HomePage";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to full stack project</h1>
-    </div>
+    <>
+      <Navbar />
+        <HomePage/>
+      <Footer/>
+    </>
   );
 }
 
